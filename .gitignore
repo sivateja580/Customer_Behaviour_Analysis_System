@@ -1,0 +1,19 @@
+# Raw dataset
+data/raw/
+
+# Processed dataset
+data/processed/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables
+.env
