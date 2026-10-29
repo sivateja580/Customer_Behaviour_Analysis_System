@@ -29,6 +29,75 @@ This project transforms raw transactional data into actionable insights through 
 ![Customer Segmentation](images/Customer%20Segmentation.png)
 
 
+## Key Business Insights
+
+> **Dataset note:** The dataset is synthetic and represents a fictional Indian e-commerce business, RetailPulse India. The findings below demonstrate analytical methods and are not actual company results.
+
+### 1. Customer Segmentation — RFM Analysis
+
+The RFM analysis classified 21,849 customers with delivered-order history into six segments.
+
+| Customer Segment | Customers | Revenue |
+|---|---:|---:|
+| Loyal Customers | 5,743 | ₹522M |
+| Lost Customers | 4,268 | ₹142M |
+| At Risk | 3,707 | ₹619M |
+| Champions | 2,894 | ₹639M |
+| Potential Loyalists | 2,659 | ₹77M |
+| New Customers | 2,578 | ₹85M |
+
+**Insights**
+- Champions generate the highest revenue among the six segments.
+- At-Risk customers represent a substantial revenue opportunity, making retention campaigns worth investigating.
+- Lost Customers have a large customer count but comparatively lower revenue, suggesting a need to investigate reactivation opportunities.
+- Potential Loyalists could be encouraged to purchase more frequently through relevant offers and loyalty benefits.
+
+**Recommendations**
+- Prioritize personalized retention campaigns for At-Risk customers.
+- Reward Champions with loyalty benefits and relevant product recommendations.
+- Test reactivation offers for Lost Customers.
+- Encourage New Customers to make a second purchase.
+
+### 2. Returns and Customer Experience
+
+The dataset contains 12,075 return records and approximately ₹105.90 million in recorded refunds.
+
+The most common return reasons were:
+- Size Issue: 2,201 returns
+- Changed Mind: 1,984 returns
+- Product Damaged: 1,933 returns
+- Quality Issue: 1,692 returns
+
+**Recommendations**
+- Review product sizing information and product descriptions.
+- Investigate packaging and handling processes for damaged products.
+- Analyze return reasons by product and category before deciding where to focus improvement efforts.
+
+### 3. Product Profitability
+
+The SQL validation identified 37,838 order-item records with negative profit, with a combined recorded loss amount of approximately ₹84.86 million.
+
+**Recommendations**
+- Investigate products with repeated negative-profit transactions.
+- Review product costs, discounts, and selling prices.
+- Evaluate profitability alongside sales volume before making pricing or assortment decisions.
+
+### 4. Data Quality and Reliability
+
+The project included checks for duplicate primary keys, invalid foreign keys, incorrect transaction calculations, negative order amounts, and chronological inconsistencies.
+
+The validation checks found no duplicate primary keys, invalid foreign-key references, or mismatches in the tested order amount, item revenue, and profit calculations.
+
+**Recommendation:** Maintain repeatable data-quality checks before refreshing reports or using the data for business decisions.
+
+## Business Recommendations Summary
+
+1. Focus retention efforts on At-Risk customers.
+2. Strengthen loyalty initiatives for Champions.
+3. Investigate the main causes of product returns.
+4. Review negative-profit transactions and discount practices.
+5. Continue monitoring data quality and KPI consistency.
+
 ## Business Objectives
 
 - Analyze revenue, orders, and sales trends.
