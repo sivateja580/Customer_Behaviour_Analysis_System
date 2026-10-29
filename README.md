@@ -11,6 +11,24 @@ This project transforms raw transactional data into actionable insights through 
 
 **Dataset note:** The project uses a synthetic Indian e-commerce dataset. The results demonstrate an analytical workflow and should not be interpreted as actual company performance.
 
+## Power BI Dashboard Gallery
+
+### 1. Executive Overview
+![Executive Overview](images/Executive%20Overview.png)
+
+### 2. Customer Behaviour
+![Customer Behaviour](images/Customer%20Behaviour.png)
+
+### 3. Product & Sales Analysis
+![Product and Sales Analysis](images/Product%20%26%20Sales%20Analysis.png)
+
+### 4. Customer Experience
+![Customer Experience](images/Customer%20Experience.png)
+
+### 5. Customer Segmentation — RFM Analysis
+![Customer Segmentation](images/Customer%20Segmentation.png)
+
+
 ## Business Objectives
 
 - Analyze revenue, orders, and sales trends.
